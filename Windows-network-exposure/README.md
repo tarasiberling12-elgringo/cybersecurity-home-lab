@@ -510,20 +510,11 @@ Disable-NetFirewallRule -DisplayGroup "File and Printer Sharing"
 
 # Evidence
 
-Recommended screenshots for this project:
-
-1. Ubuntu and Windows IP configuration
-2. Initial Nmap scan showing `Host seems down`
-3. `nmap -Pn` showing the host as up and ports filtered
-4. Windows listening TCP connections
-5. Windows Firewall configuration
-6. TCP 445 before the firewall change
-7. TCP 445 after the controlled firewall change
-8. Final firewall cleanup
-
-> Screenshots should avoid exposing personal information, account names, unrelated IP addresses, or other sensitive information before being published publicly.
-
----
+![Linux IP Address](LInuxIP.png)
+![Windows IP Address](WindowsIP.png)
+![Firewalls](FirewallCon.png)
+![Firewalls](Firewalls2.png)
+![Nmap Scans](NmapScans.png)
 
 # Conclusion
 
