@@ -529,5 +529,3 @@ The primary takeaway is:
 > **Network exposure must be evaluated from both the host and network perspectives. A listening service is not necessarily an exposed service.**
 
 This lab provides a foundation for subsequent investigations involving **Nmap service identification, Windows event logs, network traffic analysis, and SOC detection workflows.**
-
-```
