@@ -616,17 +616,10 @@ Disable-NetFirewallRule -DisplayGroup "File and Printer Sharing"
 
 # Evidence
 
-Recommended screenshots for this project:
-
-1. Initial `nmap -Pn -sV` result showing all ports filtered.
-2. Targeted `nmap -Pn -sV -p 445` showing `445/tcp open microsoft-ds?`.
-3. Windows `Get-NetTCPConnection` showing TCP 445 listening.
-4. Windows `Get-Process -Id 4` showing PID 4 / System.
-5. Windows SMB firewall rule configuration.
-6. Nmap result showing TCP 445 open after the controlled firewall change.
-7. Final Nmap result showing TCP 445 returned to filtered after cleanup.
-
-> Screenshots should be reviewed before publication to ensure that personal information, account information, or unrelated system details are not exposed.
+![Initial Nmap Result and Targeted Nmap Result](L2NmapScans.png)
+![Windows Firewall Configuration 1](L2Windows1.png)
+![Windows PID](L2Windows2.png)
+![Windows Firewall Configuration 2](L2Windows3.png)
 
 ---
 
