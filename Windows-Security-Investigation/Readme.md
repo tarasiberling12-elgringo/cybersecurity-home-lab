@@ -492,6 +492,17 @@ The investigated processes were located in expected installation directories and
 
 # Evidence
 
+![WindowsEvidence1](L3Windows1.png)
+![WindowsEvidence2](L3Windows2.png)
+![WindowsEvidence3](L3Windows3.png)
+![WindowsEvidence4](L3Windows4.png)
+![WindowsEvidence5](L3Windows5.png)
+![WindowsEvidence6](L3Windows6.png)
+![WindowsEvidence7](L3Windows7.png)
+![WindowsEvidence8](L3Windows8.png)
+![WindowsEvidence9](L3Windows9.png)
+![WindowsEvidence10](L3Windows10.png)
+
 ---
 
 # Key Findings
