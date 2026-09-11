@@ -66,7 +66,7 @@ The connection was subsequently reset because Nmap was performing reconnaissance
 
 ### Evidence
 
-
+![TCP Handshake](tcp-handshake.png)
 
 ---
 
@@ -102,15 +102,7 @@ The failed authentication activity was intentionally generated within the author
 
 ### Evidence
 
-**Screenshot:**
-
-> `[INSERT smb-authentication-failure.png HERE]`
-
-**File:**
-
-```text
-screenshots/smb-authentication-failure.png
-```
+![SMB Auth Failure](smb-authentication-failure.png)
 
 ---
 
@@ -144,15 +136,7 @@ No attempt was made to obtain or crack credentials. The investigation focused on
 
 ### Evidence
 
-**Screenshot:**
-
-> `[INSERT smb-tcp-stream.png HERE]`
-
-**File:**
-
-```text
-screenshots/smb-tcp-stream.png
-```
+![SMB TCP Stream](smb-tcp-stream.png)
 
 ---
 
@@ -219,15 +203,7 @@ In this lab, the activity was intentionally generated using Nmap and is therefor
 
 ### Evidence
 
-**Screenshot:**
-
-> `[INSERT nmap-port-scan.png HERE]`
-
-**File:**
-
-```text
-screenshots/nmap-port-scan.png
-```
+![Nmap Port Scan](nmap-port-scan.png)
 
 ---
 
@@ -262,43 +238,6 @@ tcp.flags.syn == 1 && tcp.flags.ack == 1
 ```text
 ip.src == 10.211.55.4 && ip.dst == 10.211.55.3 && tcp.flags.syn == 1 && tcp.flags.ack == 0
 ```
-
----
-
-# Evidence
-
-The investigation evidence is stored in the following directories:
-
-```text
-network-traffic-investigation/
-│
-├── README.md
-│
-├── captures/
-│   └── investigation.pcapng
-│
-├── screenshots/
-│   ├── tcp-handshake.png
-│   ├── smb-authentication-failure.png
-│   ├── smb-tcp-stream.png
-│   └── nmap-port-scan.png
-│
-├── analysis/
-│   └── investigation-notes.md
-│
-└── detections/
-    └── network-detections.md
-```
-
-### Packet Capture
-
-The complete Wireshark packet capture is available at:
-
-```text
-captures/investigation.pcapng
-```
-
-The capture contains the network traffic used during the investigation and can be reopened in Wireshark for independent analysis.
 
 ---
 
