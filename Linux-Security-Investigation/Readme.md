@@ -216,6 +216,7 @@ No abnormal resource condition was identified from the baseline uptime/load info
 
 ## Step 1 Evidence
 
+![System ID & Baseline](SystemID&Baseline.png)
 
 ### Step 1 Assessment
 
@@ -354,7 +355,8 @@ No clearly unknown interactive user was identified in the displayed records.
 
 ## Step 2 Evidence
 
-
+![Users & Privileges 1](Users&Privileges1.png)
+![Users & Privileges 2](Users&Privileges2.png)
 
 ### Step 2 Assessment
 
@@ -462,7 +464,8 @@ This does not independently prove that SSH is unavailable; it only indicates tha
 
 ## Step 3 Evidence
 
-
+![Authentication Investigation1](Authentication_Investigation1.png)
+![Authentication_Investigation2](Authentication_Investigation2.png)
 
 ### Step 3 Assessment
 
@@ -586,6 +589,9 @@ The services were primarily consistent with an Ubuntu desktop environment.
 
 ## Step 4 Evidence
 
+![Processes & Services1](Process&Service1.png)
+![Processes & Services2](Process&Service2.png)
+![Processes & Services3](Process&Service3.png)
 
 ### Step 4 Assessment
 
@@ -711,6 +717,8 @@ No listener was observed on these common remote-access ports.
 
 ## Step 5 Evidence
 
+![Network Connection Analysis1](Network_Connection_Analysis1.png)
+![Network Connection Analysis2](Network_Connection_Analysis2.png)
 
 ### Step 5 Assessment
 
@@ -1019,7 +1027,11 @@ The service was confirmed as legitimate PipeWire functionality.
 
 ## Step 6 Evidence
 
-
+![Persistence Analysis1](Persistence_Analysis1.png)
+![Persistence Analysis2](Persistence_Analysis2.png)
+![OpenVPN Persistence1](OpenVPN_Persistence1.png)
+![OpenVPN Persistence2](OpenVPN_persistence2.png)
+![OpenVPN Persistence3](OpenVPN_Persistence3.png)
 
 ### Step 6 Assessment
 
@@ -1381,7 +1393,10 @@ It should be documented separately from the authentication investigation.
 
 # Step 7 Evidence
 
-
+![Security Control Assessment1A](SecurityControl_Assesment1A.png)
+![Security Control Assessment1B](SecurityControl_Assesment1B.png)
+![Security Control Assessment2](SecurityControl_Assesment2.png)
+![Security Control Assessment3](SecurityControl_Assesment3.png)
 
 # Final Findings
 
